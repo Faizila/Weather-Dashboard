@@ -11,6 +11,11 @@
 * HTML
 * CSS
 * JavaScript
+* jQuery
+* Moment.js
+* Bootstrap
+* OpenWeather API
+* Google Fonts
 
 ## Link of Deployed Application
 

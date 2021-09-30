@@ -1,4 +1,13 @@
-* body{
-    font-family: 'Oswald', sans-serif;
-    }
+* body {
+  font-family: "Oswald", sans-serif;
+}
 
+.heading {
+  font-family: 'Gemunu Libre', sans-serif;
+  font-weight: bold;
+  background-color: #3a3838;
+  color: #ffffff;
+  text-align: center;
+  font-size: 60px;
+  padding: 35px;
+}
