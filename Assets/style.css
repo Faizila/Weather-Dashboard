@@ -3,11 +3,62 @@
 }
 
 .heading {
-  font-family: 'Gemunu Libre', sans-serif;
+  font-family: "Gemunu Libre", sans-serif;
   font-weight: bold;
   background-color: #3a3838;
   color: #ffffff;
   text-align: center;
   font-size: 60px;
   padding: 35px;
+}
+input {
+  width: 75%;
+}
+
+#city-list {
+  width: 20rem;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#city-date-icon,
+#city-name,
+#current-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center/space-around/space-between;
+ }
+
+ #search-button{
+   margin-top: 10px;
+   width: 100%;
+   }
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3,
+h4 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+#forecast-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center/space-between;
+}
+
+button {
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.forecast {
+  margin: 10px;
 }
