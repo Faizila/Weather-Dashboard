@@ -3,78 +3,78 @@
 }
 
 header {
-background-color: #48484a;
-border-bottom: 10px solid #91b147;
+  background-color: #48484a;
+  border-bottom: 10px solid #91b147;
 }
 
 .heading {
-font-family: "Gemunu Libre", sans-serif;
-font-weight: bold;
-color: #ffffff;
-text-align: center;
-font-size: 60px;
-padding: 35px;
+  font-family: "Gemunu Libre", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  font-size: 60px;
+  padding: 35px;
 }
 
 .search {
-width: 90%;
-background-color: #48484a;
-border: none;
-outline: none;
-font-size: 20px;
+  width: 90%;
+  background-color: #48484a;
+  border: none;
+  outline: none;
+  font-size: 20px;
 }
 
 .search:hover {
-background-color: #91b147;
+  background-color: #91b147;
 }
 #city-list {
-cursor: pointer;
-margin-top: 10px;
-border-radius: 6px;
-text-align: center;
-border: none;
-outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 6px;
+  text-align: center;
+  border: none;
+  outline: none;
 }
 
 .list-group-item {
-background-color: #91b147;
-font-weight: bold;
-width: 90%;
+  background-color: #91b147;
+  font-weight: bold;
+  width: 90%;
 }
 
 .card-header {
-font-size: 25px;
-font-weight: bold;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .input {
-width: 90%;  
+  width: 90%;
 }
 
 h2 {
-text-align: left;
-font-size: 20px;
-font-weight: bold;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 h4 {
-font-size: 20px;
-font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #forecast-cards {
-display: flex;
-flex-direction: row;
-justify-content: center/space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: center/space-between;
 }
 
 button {
-margin-top: 10px;
-border-radius: 6px;
-border: none;
-outline: none;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
 }
 
 .forecast {
-margin: 10px;
+  margin: 10px;
 }
