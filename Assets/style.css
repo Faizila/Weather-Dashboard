@@ -25,7 +25,7 @@ header {
 }
 
 .search:hover {
-  background-color: #91b147;
+  background-color: rgb(104, 129, 100);
 }
 
 hr {
@@ -45,6 +45,10 @@ hr {
   background-color: #91b147;
   font-weight: bold;
   width: 90%;
+}
+
+.list-group-item:hover {
+  background-color: rgb(104, 129, 100);
 }
 
 .card-header {
