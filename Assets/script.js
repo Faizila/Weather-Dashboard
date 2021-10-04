@@ -47,7 +47,7 @@ $(document).ready(function () {
           data.name + ", " + data.sys.country
         );
         cardHeader.append(currentPlace);
-        var newDate = moment().format(" (M-D-YYYY) ");
+        var newDate = moment().format(" (M/D/YYYY) ");
         cardHeader.append(newDate);
         // icon
         var iconURL =
@@ -83,7 +83,7 @@ $(document).ready(function () {
       },
     });
   }
-  // call api
+  // call API
   function getForecast(searchValue) {
     $.ajax({
       type: "GET",
@@ -97,14 +97,14 @@ $(document).ready(function () {
           .html('<h4 class="mt-3">5-Day Forecast:<h4>')
           .append('<div class="row">');
 
-        // loop over all forecasts (by 3-hour increments)
+        // loop over all forecasts
         for (var i = 0; i < data.list.length; i++) {
           // only looks at forecasts around 3:00pm
           if (data.list[i].dt_txt.indexOf("15:00:00") !== -1) {
             // create html elements for cards
             var col = $("<div>").addClass("col-md-2");
 
-            var card = $("<div>").addClass("card bg-primary text-white");
+            var card = $("<div>").addClass("card bg-dark text-white");
 
             var body = $("<div>").addClass("card-body p-2");
             // card title
