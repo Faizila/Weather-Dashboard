@@ -27,6 +27,11 @@ header {
 .search:hover {
   background-color: #91b147;
 }
+
+hr {
+  width: 90%;
+}
+
 #city-list {
   cursor: pointer;
   margin-top: 10px;
