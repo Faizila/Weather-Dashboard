@@ -34,8 +34,9 @@ https://faizila.github.io/Weather-Dashboard/
 
 ## Screenshots of Deployed Application
 
-![screenshot1](https://user-images.githubusercontent.com/78191579/135794973-f8a701d3-85cb-46a2-b2b9-bd8f84d46c0f.JPG)
-![screenshot2](https://user-images.githubusercontent.com/78191579/135794970-4afe7376-be48-4e1f-92fe-aff11948f371.JPG)
+![screenshot1](https://user-images.githubusercontent.com/78191579/135947689-371c295a-c040-4af4-8ffb-f5094dee39c3.JPG)
+![screenshot2](https://user-images.githubusercontent.com/78191579/135947697-fb4251a7-ed42-4e2d-90d0-ad6569ade274.JPG)
+
 
 
 
